@@ -1,0 +1,461 @@
+@charset "utf-8";
+
+/*****************************************************/
+/* Mediaqueries  */
+/*****************************************************/
+@media only screen and (max-width: 1440px) {
+
+body{
+	font-size:13px;
+}
+.icons-edit-about {
+    background: none repeat scroll 0 0 #e9e6df;
+    border-radius: 50%;
+    color: #000;
+    font-size: 3em;
+    height: 80px;
+    min-height: 20px;
+    padding: 17px 14px;
+    transition: all 0.2s ease-in-out 0s;
+    width: 80px;
+}
+
+figure.effect-bubba h2 {
+    font-size: 13px !important;
+}
+figure.effect-bubba figcaption:before, figure.effect-bubba figcaption:after {
+    bottom: 20px;
+    content: "";
+    left: 25px;
+    opacity: 0;
+    position: absolute;
+    right: 25px;
+    top: 20px;
+    transition: opacity 0.35s ease 0s, transform 0.35s ease 0s;
+}
+}
+
+@media only screen and (max-width: 1024px) {
+
+.vimeo-info-hr {
+	border-top: 2px solid #e1e1e1;
+	width: 241px;
+}
+
+.btn-effect:after {
+	display: none;
+}
+
+.modal-body {
+	overflow-y: auto !important;
+	padding: 0;
+}
+.btn-effect-send:after {
+	background:none;
+}
+
+.btn-effect-resume:after {
+	display: none;
+}
+
+.padding-left0{
+	padding-left:15px;
+}
+.padding-right{
+	padding-right:15px;
+}
+
+#expertise_intro h4{
+	padding:0;
+}
+.btn-effect-resume:after{
+	display:none;
+}
+
+.btn-effect-resume:hover:after, .btn-effect-resume:active:after {
+	width: 0%;
+}
+
+.btn-effect:hover:after, .btn-effect:active:after {
+	width: 0%;
+}
+
+.btn-effect:after{
+	display:none;
+}
+
+figcaption > h2{
+	font-size:1em;
+}
+.portfolio-grids .btn-effect,
+#view_grid{
+	font-size:0.8em;
+}
+figure.effect-bubba figcaption:after,
+figure.effect-bubba figcaption:before{
+	border:none;
+}
+.header-sticky {
+	font-size:1em;
+}
+}
+
+@media only screen and (max-width: 768px) {
+
+body {
+    font-size: 73%;
+}
+.vimeo-info-hr {
+    width: 162px;
+}
+
+.icons-edit {
+    height: 60px;
+    padding: 0;
+    padding-top: 18px;
+    width: 60px;
+	font-size:2.2em;
+}
+.icon-tag {
+    font-size:1em;
+}
+
+.container{
+	width:100%;
+}
+#thumb-tray{
+	display:none;
+}
+.mobile-about-me {
+        margin-bottom: 30px;
+}
+
+.icons-edit-about {
+	padding: 31px 14px;
+}
+
+.about-me h3.icons-text {
+	font-size: 1em;
+}
+.expl-text{
+	font-size:1.3em;
+}
+.slider-info {
+	top: 13px;  
+}
+.slideshow nav span.nav-prev, .slideshow nav span.nav-next, .slideshow nav .close{
+	color:#000;
+}
+
+.vbox-close{
+	top:6px;
+}
+
+.vbox-info{
+	top:10px;
+}
+
+figure.effect-bubba h2{
+	font-size:13px !important;
+}
+.mobile-align-center .btn-effect {
+    height: 28px;
+    padding: 8px;
+}
+.mobile-align-center .btn-effect{
+	width:111px;
+}
+.icons-edit-about {
+    padding: 22px 14px;
+}
+.icons-edit {
+    font-size: 3em;
+    height: 80px;
+    padding: 21px 0 0;
+    width: 80px;
+}
+
+
+}
+
+@media only screen and (max-width: 767px)
+{
+.mobile-align-center{
+	margin:0 auto;
+	overflow:hidden;
+	display:block;
+	clear:both;
+	text-align:center;
+	float:none;
+	margin-bottom:30px;
+}
+figcaption > h2 {
+    font-size: 1.3em !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+}
+.portfolio-grids .btn-effect,
+.portfolio-grids .btn-effect,
+#view_grid{
+	font-size:11px !important;
+}
+figure.effect-bubba h2{
+	font-size:14px !important;
+}
+.pfolio-img{
+	margin-top:0;
+}
+.mobile-align-center a{
+	padding-top:8px;
+}
+
+.header{
+
+	background: none repeat scroll 0 0 #0f1726
+
+}
+#example-navbar-collapse {
+    float: none;
+}
+
+.navbar-brand{
+    padding-left: 15px;
+}
+
+.nav.navbar-nav li{
+	border-bottom:1px solid #707070;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	border-color:#707070;
+}
+
+.nav.navbar-nav li:last-child{
+	border-bottom:none;
+}
+.navbar-brand{
+	padding-top:18px;
+}
+.navbar-header button{
+	border:none;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.navbar-collapse {
+   max-height: 315px;
+}
+
+.landing-text-pos {
+    top: 35%;
+}
+
+.landing-pname {
+    font-size: 4em;
+}
+
+.landing-intro {
+    font-size: 1.5em;
+}
+#image_info1,
+#image_info2{
+	margin-bottom:30px;
+}
+.vimeo-info-hr{
+	width:100%;
+}
+
+.thumb_title.notag{
+	display:none;
+}
+.show-on-mobile {
+	display:block;
+}
+.show-on-desktop {
+	display:none;
+}
+
+.icons-row-1{
+		padding-top:50px;
+}
+.row1 {
+    padding-bottom: 0;
+}
+.overlay2 ul li a, .overlay2 ul li a:hover, .overlay2 ul li a:focus {
+    
+	 font-size: 24px;
+}
+.image-info {
+    padding-left: 0;
+}
+}
+@media only screen and (max-width: 568px) {
+.navbar-collapse {
+    max-height: 200px;
+}
+
+.landing-pname {
+    font-size: 3em;
+}
+#title_hr{
+	width:50px;
+}
+.landing-intro {
+    margin-top: 17px;
+}
+.overlay2 ul li a, .overlay2 ul li a:hover, .overlay2 ul li a:focus {
+    font-size: 18px;
+}
+.overlay2 nav {
+    top: 44%;
+   
+}
+
+}
+
+@media only screen and (max-width: 480px) {
+.icons-edit-about {
+	font-size: 2.5em;
+	height: 60px;
+	width: 60px;
+}
+
+.icons-edit-about {
+    padding: 15px;
+}
+.downld-resume{
+	
+	margin:35px auto 0;
+	width:250px;
+	
+}
+.expertise-me{
+	padding-bottom:6%;
+}
+.intro {
+    font-size: 1.6em;
+}
+.landing-pname {
+    font-size: 2.5em;
+}
+.landing-intro {
+    font-size: 1.4em;
+}
+}
+
+@media only screen and (max-width: 384px){
+.navbar-collapse {
+   max-height: 500px;
+}
+
+.icons-edit {
+    font-size: 2em;
+    height: 50px;
+    width: 50px;
+	padding: 13px 0 0;
+}
+
+.exp-title {
+    font-size: 1.4em;
+    letter-spacing: 0.1em;
+}
+.expl-text {
+	font-size:1.2em;
+}
+.intro{
+	font-size:1.5em;
+}
+.expertise-detail {
+	width:100%;
+	height: 275px;
+}
+.expertise-detail hr {
+	width:200px;
+}
+.exp-title {
+    padding-top: 47px;
+}
+.expertise-icon {
+	height: 275px;
+	width:100%;
+}
+
+.expl-text{
+	margin-top:5px;
+}
+
+.info {
+    font-size: 1.2em;
+}
+.social-icons {
+    font-size: 1.1em;
+}
+.cont-detail div {
+    font-size: 1.2em;
+}
+
+#send_btn {
+    height: 41px;
+    width: 132px;
+}
+.contact .close {
+    right: 13px;
+    top: 7px;
+}
+.xs-mobile.col-xs-12{
+	width:100%;
+	padding:0;
+}
+.about-me, .expertise-me, .contact-me{
+	padding-top:15%;
+}
+.expertise-me,.about-me,.contact-me{
+	padding-bottom:15%;
+}
+
+.about-content {
+
+    padding: 15% 0;
+}
+
+.mobile-align-center .btn-effect, #view_grid{
+	font-size:9px !important;
+}
+}
+
+@media only screen and (max-width: 320px){
+
+.expertise-icon {
+    padding: 30px 0 0;
+}
+hr {
+	 margin-bottom:9px;
+}
+.icon-tag {
+    font-size: 0.75em;
+}
+.desc-icons{
+	padding-top:50px;
+}
+figure.effect-bubba h2{
+	font-size:10px !important;
+}
+.portfolio-grids .btn-effect,
+.portfolio-grids .btn-effect,
+#view_grid{
+	font-size:9px !important;
+}
+
+}
+
+@media only screen and (max-width: 240px){
+
+#title_hr {
+    width: 211px;
+}
+.landing-pname {
+    font-size: 2em;
+}
+ 
+}
